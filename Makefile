@@ -1,7 +1,7 @@
 #
 # Makefile for janus streaming
 #
-PROG=example-webrtc-app
+PROG=example-webrtc-applications
 usage:
 	@echo "usage: make [edit|build|run]"
 

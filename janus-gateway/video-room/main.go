@@ -1,15 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"math/rand"
 	"time"
 
-	janus "github.com/notedit/janus-go"
 	"github.com/pion/webrtc/v2"
 
 	gst "github.com/sikang99/example-webrtc-applications/internal/gstreamer-src"
+	janus "github.com/sikang99/janus-go"
 )
 
 func init() {
@@ -57,7 +56,7 @@ func main() {
 	}
 
 	peerConnection.OnICEConnectionStateChange(func(connectionState webrtc.ICEConnectionState) {
-		fmt.Printf("Connection State has changed %s \n", connectionState.String())
+		log.Printf("Connection State has changed %s \n", connectionState.String())
 	})
 
 	// Create a audio track
