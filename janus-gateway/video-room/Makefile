@@ -1,6 +1,7 @@
 #
 # Makefile for janus streaming
 #
+PROG=video-room
 usage:
 	@echo "usage: make [edit|build|run]"
 
@@ -11,7 +12,7 @@ build b:
 	go build
 
 run r:
-	go run main.go
+	./$(PROG)
 
 #----------------------------------------------------------------------------------
 git g:

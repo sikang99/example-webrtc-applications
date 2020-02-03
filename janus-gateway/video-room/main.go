@@ -9,8 +9,12 @@ import (
 	janus "github.com/notedit/janus-go"
 	"github.com/pion/webrtc/v2"
 
-	gst "github.com/pion/example-webrtc-applications/internal/gstreamer-src"
+	gst "github.com/sikang99/example-webrtc-applications/internal/gstreamer-src"
 )
+
+func init() {
+	log.SetFlags(log.Ldate | log.Ltime | log.Lshortfile)
+}
 
 func watchHandle(handle *janus.Handle) {
 	// wait for event
