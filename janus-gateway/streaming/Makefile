@@ -1,6 +1,7 @@
 #
 # Makefile for janus streaming
 #
+PROG=streaming
 usage:
 	@echo "usage: make [edit|build|run]"
 
@@ -8,10 +9,13 @@ edit e:
 	vi main.go
 
 build b:
-	go build
+	go build -o $(PROG)
 
 run r:
-	go run main.go
+	./$(PROG)
+
+clean:
+	rm -f $(PROG)
 
 #----------------------------------------------------------------------------------
 git g:

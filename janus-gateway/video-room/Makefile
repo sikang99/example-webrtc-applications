@@ -9,7 +9,7 @@ edit e:
 	vi main.go
 
 build b:
-	go build
+	go build -o $(PROG)
 
 run r:
 	./$(PROG)

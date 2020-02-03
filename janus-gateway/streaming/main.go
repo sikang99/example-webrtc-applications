@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"time"
 
 	janus "github.com/notedit/janus-go"
@@ -10,6 +11,10 @@ import (
 	"github.com/pion/webrtc/v2/pkg/media/ivfwriter"
 	"github.com/pion/webrtc/v2/pkg/media/oggwriter"
 )
+
+func init() {
+	log.SetFlags(log.Ldate | log.Ltime | log.Lshortfile)
+}
 
 func saveToDisk(i media.Writer, track *webrtc.Track) {
 	defer func() {
