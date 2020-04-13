@@ -1,2 +1,9 @@
+
+
 sfu-ws/cert.pem
 sfu-ws/key.pem
+
+# Binaries
+sfu-ws/sfu-ws
+janus-gateway/streaming/streaming
+janus-gateway/video-room/video-room
