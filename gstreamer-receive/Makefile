@@ -1,7 +1,7 @@
 #
 # Makefile 
 #
-PROG=gstreamer-send
+PROG=gstreamer-receive
 usage:
 	@echo "make [build|clean]"
 
