@@ -9,12 +9,12 @@ import (
 
 	"github.com/at-wat/ebml-go/webm"
 
-	webrtcsignal "github.com/pion/example-webrtc-applications/internal/signal"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 	"github.com/pion/rtp/codecs"
 	"github.com/pion/webrtc/v2"
 	"github.com/pion/webrtc/v2/pkg/media/samplebuilder"
+	webrtcsignal "github.com/sikang99/pion-applications/internal/signal"
 )
 
 func main() {

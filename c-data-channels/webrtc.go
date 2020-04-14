@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/pion/example-webrtc-applications/internal/signal"
 	"github.com/pion/webrtc/v2"
+	"github.com/sikang99/pion-applications/internal/signal"
 )
 
 // Run contains pure Go codes to do the heavy lifting. In fact, the codes

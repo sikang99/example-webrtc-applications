@@ -4,6 +4,13 @@ sfu-ws/cert.pem
 sfu-ws/key.pem
 
 # Binaries
+c-data-channels/c-data-channels
+gocv-receive/gocv-receive
+gstreamer-cli/gstreamer-cli
+gstreamer-receive/gstreamer-receive
+gstreamer-send/gstreamer-send
+gstreamer-send-offer/gstreamer-send-offer
 sfu-ws/sfu-ws
+save-to-webm/save-to-webm
 janus-gateway/streaming/streaming
 janus-gateway/video-room/video-room

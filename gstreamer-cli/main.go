@@ -6,9 +6,9 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/pion/example-webrtc-applications/internal/signal"
 	"github.com/pion/webrtc/v2"
 	"github.com/pion/webrtc/v2/pkg/media"
+	"github.com/sikang99/pion-applications/internal/signal"
 )
 
 func main() {

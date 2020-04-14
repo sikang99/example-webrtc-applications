@@ -8,6 +8,9 @@ usage:
 build b:
 	go build -o $(PROG)
 
+run r:
+	./$(PROG)
+
 clean:
 	rm -f $(PROG)
 
