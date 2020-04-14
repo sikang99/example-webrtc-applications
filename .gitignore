@@ -1,7 +1,9 @@
 
 
+# local info
 sfu-ws/cert.pem
 sfu-ws/key.pem
+*.so
 
 # Binaries
 c-data-channels/c-data-channels
