@@ -1,4 +1,4 @@
-module github.com/sikang99/example-webrtc-applications
+module github.com/sikang99/pion-applications
 
 go 1.13
 
@@ -11,4 +11,5 @@ require (
 	github.com/pion/webrtc/v2 v2.1.18
 	github.com/povilasv/prommod v0.0.12
 	github.com/prometheus/client_golang v1.4.0
+	github.com/sikang99/pion-applications v1.0.0
 )
